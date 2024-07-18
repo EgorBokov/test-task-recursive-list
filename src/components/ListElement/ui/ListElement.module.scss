@@ -1,0 +1,25 @@
+.content {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out all;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.wrappedChildren {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.activeContent {
+  cursor: pointer;
+}
